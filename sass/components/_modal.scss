@@ -1,0 +1,197 @@
+// .backdrop.is-hidden{
+//     visibility: hidden;
+//     opacity: 0;
+//     pointer-events: none;
+//   }
+//   .backdrop{
+//     position: fixed;
+//     top:0;
+//     left:0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: rgba(0, 0, 0, 0.2);
+//      opacity: 1;
+    
+//      transition:  opacity 250ms var(--cubic-bezier), visibility 250ms
+//   var(--cubic-bezier);
+//   }
+//   .modal{
+//     position: absolute;
+//     left: 50%;
+//     top:50%;
+//     padding:40px;
+//     transform: translate(-50%, -50% ) scale(1);
+//     opacity: 1;
+//     background: #FFFFFF;
+//   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+//   border-radius: 4px; 
+//   transition: transform 250ms var(--cubic-bezier),
+//   opacity 250ms var(--cubic-bezier);
+    
+//   @include mobile { 
+//     width: 450px; 
+//     min-height: 609px; 
+//   } 
+ 
+//   @include desktop { 
+//     width: 528px; 
+//     min-height: 581px; 
+//   }
+//   }
+//   .close-button{
+//     position: absolute;
+//     top:8px;
+//     right: 8px;
+//     width: 30px;
+//     height: 30px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border:1px solid rgba(0, 0, 0, 0.1);
+//     border-radius: 50%;
+//     background-color: var(--white-color);
+//     cursor: pointer;
+//     transition: color 250ms var(--cubic-bezier);
+//     &:hover,
+//     &:focus{
+//     color:var(--accent-color);
+//   }
+//   }
+//   .modal-close{
+//     fill:currentColor;
+//   }
+  
+//   .form-title{
+//     font-weight: 700;
+//     font-size: 20px;
+//     line-height: 1.15;
+//     color: var(--title-color);
+//     text-align: center;
+//     margin-bottom: 12px;
+//   }
+
+// .modal-field{
+//   margin-bottom: 10px;
+//   display:block;
+//   position: relative;
+//   &:nth-child(4){
+//     margin-bottom:20px ;
+//   }
+// }
+
+// .form-field{
+//   position: relative;
+//   display: flex;
+//   flex-direction: column;
+// }
+// .form-label{
+//   font-size:12px;
+//   display: block;
+//   position: relative;
+//   margin-bottom: 4px;
+// }
+
+// .form-icon{
+//   position: absolute;
+//   left: 12px;
+//   top:50%;
+//  transform: translateY(-50%);
+//  transition: fill 250ms var(--cubic-bezier);
+// }
+// .form-input{
+//   width: 100%;
+//   height: 40px;
+//   border: 1px solid rgba(33, 33, 33, 0.2);
+// border-radius: 4px;
+// font-size: 12px;
+// padding-left: 42px;
+// outline: transparent;
+// transition: border-color 250ms var(--cubic-bezier);
+// &:focus{
+//   border-color: var(--accent-color);
+// };
+// &:focus + .form-icon{
+//   fill: var(--accent-color);
+// }
+// }
+
+
+// .form-place{
+//   width: 100%;
+//   height: 120px;
+//   font-size: 12px;
+//   padding: 12px 16px;
+//   border: 1px solid rgba(33, 33, 33, 0.2);
+//   border-radius: 4px;
+//   outline: transparent;
+//   resize: none;
+//   transition: border-color 250ms var(--cubic-bezier);
+//   &:focus{
+//     border-color:var(--accent-color);
+//   }
+// }
+
+// .check-text{
+//   display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-bottom: 30px;
+// }
+// .check-icon{
+//   width:16px;
+//   height:15px;
+//   border:2px solid var(--title-color);
+//   border-radius:2px;
+//   margin-right:7px;
+//   cursor: pointer; 
+//   display:flex;
+//   align-items: center;
+//   justify-content: center;
+//   fill: transparent;
+//   transition: background-color 250ms var(--cubic-bezier),
+//   border-color 250ms var(--cubic-bezier),
+//   fill 250ms var(--cubic-bezier);
+//   .modal-check:checked + & {
+//     background-color: var(--accent-color);
+//     border-color:transparent; 
+//     fill: var(--white-color);
+//   }
+// }
+
+
+// .checkbox-text{
+//   @include font(null, 10px, 1.6); 
+//   margin-right: 7px; 
+//   @include mobile { 
+//     @include font(null, 12px, 1.6); 
+//   } 
+//   @include desktop { 
+//     @include font(null, 14px, 1.7); 
+//   } 
+// }
+// .policy-link {
+//   @include font(null, 10px, 1.6); 
+//   color: var(--accent-color); 
+//   @include mobile { 
+//     @include font(null, 12px, 1.6); 
+//   } 
+//   @include desktop { 
+//     @include font(null, 14px, 1.7); 
+//   }
+// }
+// .form-button{
+//   min-width: 200px;
+//   height: 50px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 0 auto;
+//   padding: 10px 52px;
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+//   transition: background-color 250ms var(--cubic-bezier);
+//   &:focus,
+//   &:hover{
+// color:var(--white-color);
+// background-color:var(--form-button-background-color);
+// };
+// }

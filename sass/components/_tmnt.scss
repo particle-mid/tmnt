@@ -1,0 +1,143 @@
+.tmnt-section{
+    width: 1400;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.turtles-list{
+    
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap:10px;
+}
+.leonardo-fon{
+    width: 200px;
+    height: 570px;
+    background-color:blue;
+    border-radius: 5px;
+}
+
+
+.leonardo{
+    position: relative;
+    width: 305px;
+  height: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+ transform: skew(-25deg);
+ cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/tmnt-leonardo-katana-sword/tmnt-leonardo-katana-sword-cursor-32x32.png), default;
+ &:hover,{
+    &::before{
+        content: '';
+        position: absolute;
+        width: 305px;
+        height: 545px;
+        background-image: url(/images/tmnt/Image\ Layer\ copy.png);
+        background-size: 305px 545px;
+        background-repeat: no-repeat;
+    }
+ }
+}
+
+
+
+.donatello{
+    position: relative;
+    width: 305px;
+  height: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+ transform: skew(-25deg);
+ cursor:url(https://sweezy-cursors.com/wp-content/uploads/cursor/tmnt-donatello-stick/tmnt-donatello-stick-cursor-32x32.png), default;
+ &:hover{
+    &::before{
+        content: '';
+        position: absolute;
+        width: 305px;
+        height: 545px;
+        background-image: url(/images/tmnt/Layer.svg);
+        background-size: 305px 545px;
+        background-repeat: no-repeat;
+    }
+ }
+}
+.don-fon{
+    width: 200px;
+    height: 570px;
+    background-color:purple;
+    border-radius: 5px;
+}
+
+.mick{
+    position: relative;
+    width: 305px;
+  height: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+ transform: skew(-25deg);
+ cursor:url(https://sweezy-cursors.com/wp-content/uploads/cursor/tmnt-michelangelo-nunchucks/tmnt-michelangelo-nunchucks-cursor-32x32.png), default;
+ &:hover{
+    &::before{
+        content: '';
+        position: absolute;
+        width: 305px;
+        height: 545px;
+        background-image: url(/images/tmnt/mick.svg);
+        background-size: 305px 545px;
+        background-repeat: no-repeat;
+    }
+ }
+}
+
+.mick-fon{
+    width: 200px;
+    height: 570px;
+    background-color:rgb(240, 103, 5);
+    border-radius: 5px;
+
+}
+.raf{
+    position: relative;
+    width: 305px;
+  height: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+ transform: skew(-25deg);
+ cursor:url(https://sweezy-cursors.com/wp-content/uploads/cursor/tmnt-raphael-ninja-sai/tmnt-raphael-ninja-sai-cursor-32x32.png), default;
+ &:hover{
+    &::before{
+        content: '';
+        position: absolute;
+        width: 275px;
+        height: 545px;
+        background-image: url(/images/tmnt/raf.svg);
+        background-size: 275px 545px;
+        background-repeat: no-repeat;
+    }
+ }
+}
+.raf-fon{
+    width: 200px;
+    height: 570px;
+    background-color:red;
+    border-radius: 5px;
+}

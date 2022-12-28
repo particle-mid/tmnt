@@ -1,0 +1,98 @@
+// .portfolio .title {
+//     color: var(--title-color);
+//     font-size: 18px;
+//     line-height: 2;
+//     letter-spacing: 0.06em;
+//     margin-bottom: 4px;
+//   }
+  
+//   .portfolio .paragraph {
+//     color: var(--primary-text-color);
+//     font-size: 16px;
+//     line-height: 1.88;
+//   }
+  
+//   .portfolio .button {
+//     color: var(--title-color);
+//     background-color: var(--section-background-teams-color);
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.62;
+//     letter-spacing: 0.03em;
+//     border-color: transparent;
+//     transition: background 250ms var(--cubic-bezier),
+//     color 250ms var(--cubic-bezier), box-shadow 250ms var(--cubic-bezier);
+//     &:hover,
+//     &:focus {
+//     color: var(--white-color);
+//     background-color: var(--accent-color);
+//     box-shadow: var(--box-shadow-portfolio-button);
+//     border-radius: 4px;
+//   }
+//   }
+  
+  
+  
+  
+//   .portfolio-list-button {
+//     display: flex;
+//     justify-content: center;
+//     margin-bottom: 50px;
+//   }
+//   .portfolio .button-item:not(:last-child) {
+//     margin-right: 8px;
+//   }
+//   .portfolio-list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 30px;
+//   }
+//   .portfolio-item {
+//     width: calc((100% - 60px) / 3);
+//   }
+//   .portfolio-border {
+//     padding: 20px 24px;
+//     border-right: 1px solid var(--border-color);
+//     border-bottom: 1px solid var(--border-color);
+//     border-left: 1px solid var(--border-color);
+//   }
+//   .portfolio-link{
+//     display:block;
+//     text-decoration: none;
+//     transition: box-shadow 250ms var(--cubic-bezier);
+//     &:hover,
+//     &:focus{
+//       box-shadow: var(--box-shadow-portfolio-link)
+//     };
+//     &:hover .overlay {
+//       transform: translateY(0);
+//     } 
+//   }
+ 
+//   .box {
+//     position: relative;
+//     overflow: hidden;
+//   }
+  
+//   .overlay {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background-color:#2196F3E5;
+//     transform: translateY(100%);
+//     transition: transform 250ms var(--cubic-bezier);
+  
+//   }
+  
+//   .overlay-text {
+//     padding: 63px 24px;
+//     font-size: 18px;
+//     line-height: 1.55;
+//     color: var(--white-color);
+//   }
+  
